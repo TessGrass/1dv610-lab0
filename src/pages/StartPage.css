@@ -1,0 +1,33 @@
+.startpage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/ship.jpeg')
+}
+
+.name-form {
+  width: 235px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+}
+
+.name-form input[type=text] {
+  display: block;
+  height: 16px;
+  padding: 7px 16px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+.name-form label {
+  color: red;
+}

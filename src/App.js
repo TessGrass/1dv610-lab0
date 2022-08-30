@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react'
+import StartPage from './pages/StartPage'
+// import GeneratePage from './pages/GeneratePage'
 import './App.css';
 
 function App() {
+const [userFirstName, setUserFirstName] = useState('')
+const [userLastName, setUserLastName] = useState('')
+const [isUserNameValid, setIsUserNameValid] = useState(false)
+
+const userNameHandler = (lastName, firstName) => {
+  setUserFirstName(firstName)
+  setUserLastName(lastName)
+  setIsUserNameValid(true)
+}
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <StartPage fullName={userNameHandler}/>
     </div>
   );
 }
