@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import StartPage from './pages/StartPage'
-// import GeneratePage from './pages/GeneratePage'
+import GeneratePage from './pages/GeneratePage'
 import './App.css';
 
 function App() {
@@ -17,7 +17,7 @@ const userNameHandler = (lastName, firstName) => {
 
   return (
     <div>
-      <StartPage fullName={userNameHandler}/>
+      {isUserNameValid ? <GeneratePage firstName={userFirstName} lastName={userLastName} /> : <StartPage fullName={userNameHandler}/>}
     </div>
   );
 }

@@ -28,14 +28,14 @@ const StartPage = ({ fullName }) => {
   return (
     <div className="startpage">
       <div className="name-form">
-      <form>
-      <label>Firstname</label>
-      <input type="text" id="first" name="firstname" onChange={userLastNameHandler} />
-      <label>Lastname</label>
-      <input type="text" id="last" name="lastname" onChange={userFirstNameHandler} />
-      <PrimaryButton buttonText="Take me to the ship" onClicked={buttonClickHandler} />
-    </form>
-    </div>
+        <form>
+          <label>Firstname</label>
+            <input type="text" id="first" name="firstname" onChange={userLastNameHandler} />
+          <label>Lastname</label>
+            <input type="text" id="last" name="lastname" onChange={userFirstNameHandler} />
+              <PrimaryButton buttonText="Take me to the ship" onClicked={buttonClickHandler} />
+        </form>
+      </div>
     </div>
   )
 }

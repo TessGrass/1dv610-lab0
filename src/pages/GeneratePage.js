@@ -56,5 +56,4 @@ const GeneratePage = ({ firstName, lastName }) => {
   )
 }
 
-
 export default GeneratePage

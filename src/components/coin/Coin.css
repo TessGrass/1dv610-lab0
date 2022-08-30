@@ -1,0 +1,8 @@
+.coin-logo {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image: url('../../images/coin.jpeg');
+    background-size: contain;
+}
