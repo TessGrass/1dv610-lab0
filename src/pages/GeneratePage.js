@@ -1,11 +1,11 @@
 import { useState } from 'react'
-// import Coin from '../components/coin/Coin'
-// import Title from '../components/title/Title'
-// import PrimaryButton from '../components/primary-button/PrimaryButton'
-// import PirateFirstName from '../constants/PirateFirstName'
-// import PirateLastName from '../constants/PirateLastName'
-// import TaskOnBoard from '../constants/TaskOnBoard'
-// import Randomizer from '../components/randomizer/Randomizer'
+import Coin from '../components/coin/Coin'
+import Title from '../components/title/Title'
+import PrimaryButton from '../components/primary-button/PrimaryButton'
+import PirateFirstName from '../constants/PirateFirstName'
+import PirateLastName from '../constants/PirateLastName'
+import TaskOnBoard from '../constants/TaskOnBoard'
+import Randomizer from '../components/randomizer/Randomizer'
 import './GeneratePage.css'
 
 
